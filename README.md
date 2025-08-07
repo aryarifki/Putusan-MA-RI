@@ -1,7 +1,6 @@
 # Scrapper Putusan-MA-RI
-Mengklasifikasi dan Meringkas Putusan Mahkamah Agung Indonesia
 
-## 🔧 Pembaruan Terbaru (2025-08-07)
+## 🔧 Pembaruan Terakhir (2025-08-07)
 
 ### ✅ Perbaikan Scraper Komprehensif
 Scraper telah diperbaiki dengan fitur-fitur berikut:
