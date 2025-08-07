@@ -1,5 +1,5 @@
-# Putusan-MA-RI
-Mengklasifikasi dan Meringkas Putusan Mahkamah Agung Indonesia dengan IBM Granite
+# Scrapper Putusan-MA-RI
+Mengklasifikasi dan Meringkas Putusan Mahkamah Agung Indonesia
 
 ## 🔧 Pembaruan Terbaru (2025-08-07)
 
