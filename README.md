@@ -17,13 +17,13 @@ Scraper telah diperbaiki dengan fitur-fitur berikut:
 
 ```bash
 # Test konektivitas
-python example_usage.py --test-only --debug
+python scraper.py --test-only --debug
 
 # Scrape 10 halaman dengan format JSON
-python example_usage.py --pages 10 --format json
+python scraper.py --pages 10 --format json
 
 # Resume dari checkpoint
-python example_usage.py --resume --pages 50
+python scraper --resume --pages 50
 
 # Debug mode dengan HTML analysis
 python run_analysis.py --debug
@@ -131,19 +131,19 @@ Scraper ini dirancang khusus untuk website Mahkamah Agung Indonesia:
 
 ### 1. Test Konektivitas
 ```bash
-python example_usage.py --test-only --debug --verbose
+python scraper.py --test-only --debug --verbose
 ```
 
 ### 2. Scraping Basic
 ```bash
 # Scrape 50 halaman dengan retry logic
-python example_usage.py --pages 50 --format json --retry-attempts 3
+python scraper.py --pages 50 --format json --retry-attempts 3
 ```
 
 ### 3. Advanced Scraping
 ```bash
 # Full scraping dengan semua features
-python example_usage.py \
+python scraper.py \
     --pages 100 \
     --format excel \
     --debug \
@@ -154,7 +154,7 @@ python example_usage.py \
 
 ### 4. Resume dari Checkpoint
 ```bash
-python example_usage.py --resume --pages 200
+python scraper.py --resume --pages 200
 ```
 
 ### 5. Debug Mode
