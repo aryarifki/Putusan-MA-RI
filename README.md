@@ -2,9 +2,7 @@
 
 ## 🔧 Pembaruan Terakhir (2025-08-07)
 
-### ✅ Perbaikan Scraper Komprehensif
-Scraper telah diperbaiki dengan fitur-fitur berikut:
-
+### ✅ Perbaikan Scraper 
 - **Kompatibilitas urllib3 2.0+**: Fixed TypeError untuk `method_whitelist` → `allowed_methods`
 - **Error Handling Comprehensive**: Menangani timeout, rate limiting, connection errors
 - **Fallback Strategy**: Requests → Selenium untuk anti-bot protection
