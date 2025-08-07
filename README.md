@@ -1,15 +1,5 @@
 # Scrapper Putusan-MA-RI
 
-## 🔧 Pembaruan Terakhir (2025-08-07)
-
-### ✅ Perbaikan Scraper 
-- **Kompatibilitas urllib3 2.0+**: Fixed TypeError untuk `method_whitelist` → `allowed_methods`
-- **Error Handling Comprehensive**: Menangani timeout, rate limiting, connection errors
-- **Fallback Strategy**: Requests → Selenium untuk anti-bot protection
-- **Debug & Monitoring**: Logging detail, progress tracking, checkpoint system
-- **User Agent Rotation**: Menghindari detection dengan rotasi user agent
-- **HTML Structure Analysis**: Debug tools untuk analisis struktur website
-
 ### 🚀 Quick Start
 
 ```bash
